@@ -1,0 +1,89 @@
+body{
+background-image: url(https://cdn.wallpapersafari.com/1/49/QMFg3o.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: fit-content;
+    background-color: #17a2b8;
+    margin-left:268px;
+    width: 200px;
+    height: 200px;
+    padding-left: 29px;
+    padding-top: 9px;
+    font-family: cursive;
+    border-radius:12px ;
+    background-image: url(https://cdn.wallpapersafari.com/1/49/QMFg3o.jpg);
+background-repeat: repeat;
+background-attachment: fixed;
+box-shadow: 5px 5px 10px #070808;
+}
+.btn1{
+   position: fixed ;
+   top: 19px;
+   display: flex;
+   justify-content: space-around;
+   width: 100px;
+   height: 100px;
+   margin-left: 640px;
+   background:  #17a2b8;
+   width: 76px;
+   height: 22px;
+   border-radius: 12px;
+    font-family: "cooper";
+    
+    
+}
+.btn1:hover{
+    scale: 1.3px;
+    background-color: rgb(23, 230, 230);
+}
+.btn2{
+    position: fixed ;
+    top: 19px;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: 100px;
+    margin-left: 565px;
+    background:  #17a2b8;
+    width: 70px;
+   height: 22px;
+   border-radius: 12px;
+   font-family: "cooper"
+}
+.btn2:hover{
+    scale: 1.3px;
+    background-color: rgb(23, 230, 230);
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: fit-content;
+   
+    
+}
+.footer {
+    color: #091517;
+   
+    height: 26px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+}
+.ca{
+    margin-left: 55px;
+    font-family: cursive;
+}
+.ca:hover{
+    scale: 1.3px;
+    background-color: #89e5f5;
+}

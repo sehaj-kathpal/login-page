@@ -1,0 +1,36 @@
+*{
+    background-color: black;
+}
+  
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 120px;
+    margin-right: 167px;
+    
+    color: rgb(4, 30, 30);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-electronic-technology-purple-light-effect-background-image_208328.jpg);
+    -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}
+.main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    border: 5px solid rgb(104, 27, 163);
+    
+    
+}
+.footer{
+    margin-left: 250px;
+    color: grey;
+}
+.btn1{
+    margin-left: 300px;
+    padding: 1px;
+}
+.mainn{
+font-family: cooper;
+color: blueviolet;
+}

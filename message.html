@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages - YourApp</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Messages</h1>
+        <nav>
+            <a href="profile.html">Profile</a>
+            <a href="index.html">Home</a>
+            <a href="#" id="logoutBtn">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="messagesContainer">
+            <div id="inbox">
+                <h2>Inbox</h2>
+                <ul id="messageList">
+                    <!-- Messages will be appended here -->
+                </ul>
+            </div>
+            <div id="sendMessage">
+                <h2>Send a Message</h2>
+                <form id="sendMessageForm">
+                    <label for="receiver">To:</label>
+                    <input type="text" id="receiver" name="receiver" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+                <p id="messageError" class="error"></p>
+                <p id="messageSuccess" class="success"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ShadowCode Phantom</p>
+    </footer>
+
+    <script src="../js/messaging.js"></script>
+</body>
+</html>
